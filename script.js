@@ -1,2 +1,6 @@
-const audio = new Audio('./music/perdicao.mp3')
-audio.play()
+let html = document.querySelector("html");
+        let musica = document.querySelector("#musica");
+        html.addEventListener('click', () => {
+            musica.play();
+        
+})
